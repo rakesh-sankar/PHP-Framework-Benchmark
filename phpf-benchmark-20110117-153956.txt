@@ -1,0 +1,423 @@
+noframework-html: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.html
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.970 seconds
+Complete requests:      50000
+Failed requests:        0
+Write errors:           0
+Total transferred:      14250000 bytes
+HTML transferred:       550000 bytes
+Requests per second:    7173.44 [#/sec] (mean)
+Time per request:       1.394 [ms] (mean)
+Time per request:       0.139 [ms] (mean, across all concurrent requests)
+Transfer rate:          1996.51 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      1       5
+Processing:     0    1   0.8      1      54
+Waiting:        0    1   0.2      1       8
+Total:          1    1   0.8      1      56
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      1
+  90%      1
+  95%      2
+  98%      2
+  99%      2
+ 100%     56 (longest request)
+
+ 
+
+noframework-php: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.089 seconds
+Complete requests:      49386
+Failed requests:        0
+Write errors:           0
+Total transferred:      10963692 bytes
+HTML transferred:       543246 bytes
+Requests per second:    1641.31 [#/sec] (mean)
+Time per request:       6.093 [ms] (mean)
+Time per request:       0.609 [ms] (mean, across all concurrent requests)
+Transfer rate:          355.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      1      18
+Processing:     0    5  22.8      2     674
+Waiting:        0    5  22.8      1     674
+Total:          0    6  22.8      3     674
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      4
+  90%      5
+  95%     10
+  98%     32
+  99%    101
+ 100%    674 (longest request)
+
+ 
+
+CakePHP 1.3.4: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/cakephp-1.3.4/app/webroot/index.php/benchmark
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.327 seconds
+Complete requests:      478
+Failed requests:        0
+Write errors:           0
+Total transferred:      106338 bytes
+HTML transferred:       5269 bytes
+Requests per second:    15.76 [#/sec] (mean)
+Time per request:       634.451 [ms] (mean)
+Time per request:       63.445 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       4
+Processing:   159  617 369.6    545    2976
+Waiting:      158  612 369.8    540    2975
+Total:        159  618 369.9    545    2978
+
+Percentage of the requests served within a certain time (ms)
+  50%    545
+  66%    587
+  75%    625
+  80%    669
+  90%    787
+  95%    918
+  98%   2902
+  99%   2941
+ 100%   2978 (longest request)
+
+ 
+
+CodeIgniter 1.7.2: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/codeigniter-1.7.2/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.306 seconds
+Complete requests:      3919
+Failed requests:        0
+Write errors:           0
+Total transferred:      870018 bytes
+HTML transferred:       43109 bytes
+Requests per second:    129.31 [#/sec] (mean)
+Time per request:       77.331 [ms] (mean)
+Time per request:       7.733 [ms] (mean, across all concurrent requests)
+Transfer rate:          28.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       3
+Processing:     8   76  88.5     52     713
+Waiting:        8   71  89.3     46     712
+Total:          8   76  88.5     52     713
+
+Percentage of the requests served within a certain time (ms)
+  50%     52
+  66%     65
+  75%     75
+  80%     85
+  90%    148
+  95%    273
+  98%    402
+  99%    491
+ 100%    713 (longest request)
+
+ 
+
+Symfony 1.4.8: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/symfony-1.4.8/web/index.php
+Document Length:        0 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.516 seconds
+Complete requests:      604
+Failed requests:        0
+Write errors:           0
+Total transferred:      127050 bytes
+HTML transferred:       0 bytes
+Requests per second:    19.79 [#/sec] (mean)
+Time per request:       505.225 [ms] (mean)
+Time per request:       50.523 [ms] (mean, across all concurrent requests)
+Transfer rate:          4.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.7      0       6
+Processing:    79  495 161.3    468    1135
+Waiting:       79  491 161.4    464    1134
+Total:         79  495 161.4    468    1135
+
+Percentage of the requests served within a certain time (ms)
+  50%    468
+  66%    516
+  75%    577
+  80%    597
+  90%    687
+  95%    812
+  98%    966
+  99%   1002
+ 100%   1135 (longest request)
+
+ 
+
+Yii 1.1.4: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/yii-1.1.6/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.001 seconds
+Complete requests:      4885
+Failed requests:        0
+Write errors:           0
+Total transferred:      1084470 bytes
+HTML transferred:       53735 bytes
+Requests per second:    162.83 [#/sec] (mean)
+Time per request:       61.415 [ms] (mean)
+Time per request:       6.141 [ms] (mean, across all concurrent requests)
+Transfer rate:          35.30 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.5      0      19
+Processing:     5   61  89.5     35    1334
+Waiting:        0   59  89.5     32    1333
+Total:          5   61  89.5     35    1334
+
+Percentage of the requests served within a certain time (ms)
+  50%     35
+  66%     48
+  75%     61
+  80%     74
+  90%    146
+  95%    216
+  98%    319
+  99%    405
+ 100%   1334 (longest request)
+
+ 
+
+Zend 1.10.8: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/zend-1.11.2/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.013 seconds
+Complete requests:      1692
+Failed requests:        0
+Write errors:           0
+Total transferred:      375624 bytes
+HTML transferred:       18612 bytes
+Requests per second:    56.38 [#/sec] (mean)
+Time per request:       177.383 [ms] (mean)
+Time per request:       17.738 [ms] (mean, across all concurrent requests)
+Transfer rate:          12.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       7
+Processing:    22  176 181.5    127    2109
+Waiting:       22  171 181.6    122    2108
+Total:         22  176 181.8    127    2115
+
+Percentage of the requests served within a certain time (ms)
+  50%    127
+  66%    151
+  75%    194
+  80%    248
+  90%    327
+  95%    394
+  98%    499
+  99%    720
+ 100%   2115 (longest request)
+
+ 
+
+Toro: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/toro-framework/index.php
+Document Length:        12 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.143 seconds
+Complete requests:      17007
+Failed requests:        0
+Write errors:           0
+Total transferred:      3792561 bytes
+HTML transferred:       204084 bytes
+Requests per second:    564.21 [#/sec] (mean)
+Time per request:       17.724 [ms] (mean)
+Time per request:       1.772 [ms] (mean, across all concurrent requests)
+Transfer rate:          122.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.4      0      12
+Processing:     1   17  42.0      6     756
+Waiting:        0   16  42.0      5     756
+Total:          1   18  41.9      7     756
+
+Percentage of the requests served within a certain time (ms)
+  50%      7
+  66%      9
+  75%     11
+  80%     13
+  90%     26
+  95%     76
+  98%    178
+  99%    227
+ 100%    756 (longest request)
+
+ 
+
+Doo: 
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.16
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/doo-framework/app/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.005 seconds
+Complete requests:      19648
+Failed requests:        0
+Write errors:           0
+Total transferred:      4361856 bytes
+HTML transferred:       216128 bytes
+Requests per second:    654.83 [#/sec] (mean)
+Time per request:       15.271 [ms] (mean)
+Time per request:       1.527 [ms] (mean, across all concurrent requests)
+Transfer rate:          141.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.1      0      19
+Processing:     2   14  58.3      7    1948
+Waiting:        0   13  58.3      7    1948
+Total:          2   15  58.3      9    1948
+
+Percentage of the requests served within a certain time (ms)
+  50%      9
+  66%     11
+  75%     12
+  80%     13
+  90%     18
+  95%     25
+  98%     60
+  99%    172
+ 100%   1948 (longest request)
+
+ 
+

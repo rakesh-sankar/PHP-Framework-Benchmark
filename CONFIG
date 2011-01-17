@@ -1,0 +1,9 @@
+noframework-html:            /noframework/index.html
+noframework-php:             /noframework/index.php
+CakePHP 1.3.4:               /cakephp-1.3.4/app/webroot/index.php/benchmark 
+CodeIgniter 1.7.2:           /codeigniter-1.7.2/index.php
+Symfony 1.4.8:               /symfony-1.4.8/web/index.php
+Yii 1.1.4:                   /yii-1.1.6/index.php
+Zend 1.10.8:                 /zend-1.11.2/index.php
+Toro:                        /toro-framework/index.php
+Doo:                         /doo-framework/app/index.php

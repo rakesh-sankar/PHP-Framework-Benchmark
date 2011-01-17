@@ -1,0 +1,44 @@
+With APC:
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.html
+Requests per second:    7173.44 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.php
+Requests per second:    1641.31 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/cakephp-1.3.4/app/webroot/index.php/benchmark
+Requests per second:    15.76 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/codeigniter-1.7.2/index.php
+Requests per second:    129.31 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/symfony-1.4.8/web/index.php
+Requests per second:    19.79 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/yii-1.1.6/index.php
+Requests per second:    162.83 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/zend-1.11.2/index.php
+Requests per second:    56.38 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/toro-framework/index.php
+Requests per second:    564.21 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/doo-framework/app/index.php
+Requests per second:    654.83 [#/sec] (mean)
+
+
+
+Without APC:
+
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.html
+Requests per second:    6666.06 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/noframework/index.php
+Requests per second:    2293.41 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/cakephp-1.3.4/app/webroot/index.php/benchmark
+Requests per second:    12.49 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/codeigniter-1.7.2/index.php
+Requests per second:    90.50 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/symfony-1.4.8/web/index.php
+Requests per second:    17.58 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/yii-1.1.6/index.php
+Requests per second:    93.73 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/zend-1.11.2/index.php
+Requests per second:    40.95 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/toro-framework/index.php
+Requests per second:    460.80 [#/sec] (mean)
+Document Path:          /git-projects/PHPFrameworkBenchmarking/doo-framework/app/index.php
+Requests per second:    347.67 [#/sec] (mean)
+
