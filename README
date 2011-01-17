@@ -1,0 +1,11 @@
+This repository is used to show-case benchmark of various PHP frameworks like YII, Zend, CodeIgnitor, CakePHP, DooPHP, etc.
+
+This test has been taken under the following configuration: (please let me know if you get real FUNNY results in other machines)
+Ubuntu (marverik)
+Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+    - 32 bit processor
+4GB Memory
+30GB HDD
+
+Checkout the GRAPH:
+http://chart.googleapis.com/chart?cht=bvg&chtt=PHP+Framework+Benchmark&chts=000000,20&chs=650x450&chdl=Without+APC|With+APC&chco=98AFC7,2554C7&chbh=a,2,15&chxt=x,y&chxr=1,0,600,50&chxl=0:|CakePHP|CodeIgnitor|Symfony|YII|Zend|Toro|DOO&chd=t:13,91,18,94,41,461,348|16,130,20,163,56,564,655
