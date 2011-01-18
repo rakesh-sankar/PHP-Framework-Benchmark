@@ -8,4 +8,4 @@ Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
 30GB HDD
  
 Checkout the GRAPH:
-http://chart.googleapis.com/chart?cht=bvg&chtt=PHP+Framework+Benchmark&chts=000000,20&chs=650x450&chdl=Without+APC|With+APC&chco=98AFC7,2554C7&chbh=a,2,15&chxt=x,y&chxr=1,0,600,50&chxl=0:|CakePHP|CodeIgnitor|Symfony|YII|Zend|Toro|DOO&chd=t:13,91,18,94,41,461,348|16,130,20,163,56,564,655
+http://chart.googleapis.com/chart?cht=bvg&chtt=PHP+Framework+Benchmark&chts=000000,20&chs=650x450&chdl=Without+APC|With+APC&chco=98AFC7,2554C7&chbh=a,2,15&chxt=x,y&chxr=1,0,800,50&chxl=0:|CakePHP|CodeIgnitor|Symfony|YII|Zend|Toro|DOO&chd=t:13,91,18,94,41,461,348|16,130,20,163,56,564,655&chds=0,700
